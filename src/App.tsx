@@ -2,7 +2,6 @@ import React from "react";
 import logo from "./assets/images/logo.svg";
 import codeTestSample from "./assets/images/codeTestSample.png";
 import "./App.css";
-
 function App() {
   return (
     <div className="App">
