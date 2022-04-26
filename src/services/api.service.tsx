@@ -1,5 +1,6 @@
-import { API_KEY } from "../environment";
-import axios from "axios";
+import axios from 'axios';
+
+import { API_KEY } from '../environment';
 
 export const get_current_city_weather = (city: string) => {
   return axios.get(
