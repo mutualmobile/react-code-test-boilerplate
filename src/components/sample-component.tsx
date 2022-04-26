@@ -2,8 +2,7 @@
  * File: sample-component.tsx
  */
 
-import { ReactElement } from "react";
-import React from "react";
+import React, { ReactElement } from 'react';
 
 const SampleComponent = (): ReactElement => {
   // Make api calls from api.service.tsx
