@@ -2,23 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 10vmin;
-  pointer-events: none;
-}
-
-.Code-test-sample {
-  height: 40vh;
-  width: 40vw;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -30,8 +13,25 @@
   color: white;
 }
 
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.Code-test-sample {
+  height: 40vh;
+  width: 40vw;
+  pointer-events: none;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 @keyframes App-logo-spin {
